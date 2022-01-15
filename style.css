@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.contianer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.banner-title{
+    margin: 100px 20px;
+    padding: 20px 50px;
+}
+.banner img{
+    margin: 100px 20px;
+    padding: 20px 50px;
+}
+.Stort-title{
+    font-size: 50px;
+    color: tomato;
+    margin-bottom: 20px;
+}
+
+.pragraph-title{
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    margin-bottom: 20px;
+}
+button{
+    font-size: 20px;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+/* ..................media qq................. */
+@media only screen and (max-width:688px){
+    flex-direction: columm;
+}
