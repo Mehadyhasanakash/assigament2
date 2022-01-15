@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: rgb(245, 245, 245);
+}
+
 /* .......header site csss style.......................
 ................. */
 .contianer{
-    max-width: 1600px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 80px;
+    background-color: white;
 }
 .navigation{
     display: flex;
@@ -17,15 +23,22 @@
     height: 80px;
     
 }
+h1{
+    font: 20px;
+    color: #008080;
+}
+
 
 .navigation .nav li {
     list-style: none;
     display: inline-block;
-    margin: 10px;
+    margin: 35px;
+    font-size: 20px;
 
 }
 .navigation .nav li a {
     text-decoration: none;
+    color: #005757;
 }
 
 
@@ -37,5 +50,40 @@
     /* width: 1600px; */
     /* padding: 20px; */
     /* margin: 0 auto; */
+
+}
+
+/* start-title */
+.start-title{
+    font-size: 2cm;
+    color: #004242;
+}
+/* influencer-pragraph...................................................... */
+.influencer-pragraph{
+    font-size: 15px;
+    color: #007575;
+    margin-bottom: 20px;
+}
+/* tumbal img.................................. */
+.tumbal{
+    width: 440px;
+    height: 414px;   
+    
+}
+/* ................button......................... */
+
+.button{
+    background-color: #004242;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 20px;
+
+}
+/* samp............................... */
+samp{
+    color: #ebffff;
+    font-size: 20px;
 
 }
