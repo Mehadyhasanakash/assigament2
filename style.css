@@ -44,12 +44,19 @@ h1{
 
 /* ...............main css style 1st prat...................... */
 
+
 .Influencer{
     display: flex;
+
+    max-width: 1800px;
+    margin: 0 auto;
     align-items: center;
-    /* width: 1600px; */
-    /* padding: 20px; */
-    /* margin: 0 auto; */
+
+    
+
+
+    /* align-items: center; */
+
 
 }
 
@@ -67,7 +74,8 @@ h1{
 /* tumbal img.................................. */
 .tumbal{
     width: 440px;
-    height: 414px;   
+    height: 414px;
+
     
 }
 /* ................button......................... */
@@ -87,3 +95,14 @@ samp{
     font-size: 20px;
 
 }
+
+/* ....logo............. */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+   
