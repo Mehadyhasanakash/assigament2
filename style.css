@@ -39,5 +39,17 @@ button a{
 }
 /* ..................media qq................. */
 @media only screen and (max-width:688px){
-    flex-direction: columm;
+    .contianer{
+        flex-direction: column-reverse;     
+    }
+ 
+}
+
+/* ..........2nd part.................................
+............................................ */
+/* popular-title......................................... */
+.popular-title{
+    color: rgb(253, 47, 10);
+    font-size: 30px;
+    text-align: center;
 }
