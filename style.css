@@ -3,19 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .......header site csss style.......................
+................. */
+.contianer{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
 
-/* ...............main css style 1st prat...................... */
-.container 2{
-
-    height: 100vh;
+.navigation .nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
 
 }
+.navigation .nav li a {
+    text-decoration: none;
+}
+
+
+/* ...............main css style 1st prat...................... */
 
 .Influencer{
     display: flex;
     align-items: center;
-    max-width: 1200px;
-    padding: 20px;
-    margin: 0 auto;
+    /* width: 1600px; */
+    /* padding: 20px; */
+    /* margin: 0 auto; */
 
 }
