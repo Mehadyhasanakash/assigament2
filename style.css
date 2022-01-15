@@ -81,6 +81,43 @@ button a{
  
 }
 
+/* 
+................44444444444
+..................... */
+.container4{
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+}
+.covid19{
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
+.covid-title{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: tomato;
+
+}
+.learn{
+    margin-bottom: 50px;
+}
+.covid-19-banner img{
+    border-radius: 50px;
+}
+
+
+
+
+@media only screen and (max-width:688px){
+    .container4{
+        flex-direction: column-reverse;
+    }
+    .covid-19-banner img{
+        width: 350px;
+    }
+}
+    
 
 
 /* ...........................footer........... */
