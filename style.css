@@ -80,3 +80,28 @@ button a{
     }
  
 }
+
+
+
+/* ...........................footer........... */
+footer{
+    height: 200px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.copyright{
+    font-size: 16px;
+}
+.logo{
+    margin-top: 15px;
+    align-items: center;
+}
+@media only screen and (max-width:688px){
+    footer{
+        width: 100%;
+        font-size: 15px;
+    }
+}
